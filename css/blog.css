@@ -1,6 +1,7 @@
 .blog {
     text-align: center;
     margin-bottom: 40px;
+    overflow: hidden;
 }
 
 .cards-blog{

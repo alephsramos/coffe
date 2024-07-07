@@ -20,6 +20,7 @@ footer{
     width: 100%;
     background-image: url('../img/backgroundfinal.png');
     background-size: cover;
+    overflow: hidden;
 }
 
 .footer {
