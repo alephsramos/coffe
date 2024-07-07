@@ -1,0 +1,95 @@
+.contato-section {
+    text-align: center;
+   height: 85vh;
+    background-image: url('../img/background3.jpg');
+    background-size: cover;
+    width: 100%;
+}
+
+.contato-title {
+    font-size: 3rem;
+    padding-top: 5%;
+    margin-bottom: 1rem;
+    margin-top: 5%;
+    font-family: "Philosopher", sans-serif;
+    transition: transform 0.2s ease-in-out;
+    transition: letter-spacing 0.2s ease-in-out;
+    cursor: default;
+    color: #fff;
+}
+
+.contato-title:hover{
+    letter-spacing: 5px;
+}
+
+.contato-img {
+    display: block;
+    margin: 0 auto 1rem;
+    width: 350px;
+    margin-top: -2%;
+    margin-bottom: 3%;
+}
+
+.contato-text {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    font-weight: 200;
+    font-family: "Oswald", sans-serif;
+    cursor: default;
+    color: white;
+}
+
+.contato-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ajustado para "space-between" */
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: white;
+    gap: 1rem; /* Adicionado para controlar a distância entre os grupos */
+
+}
+
+.contato-form-group {
+    width: 45%;
+    margin-bottom: 0.5rem; /* Ajustado para uma margem menor */
+}
+
+.contato-form-group-full {
+    width: 100%;
+}
+
+.contato-input,
+.contato-textarea {
+    width: 100%; /* Ajustado para ocupar toda a largura do grupo */
+    padding: 0.7rem;
+    font-size: 1rem;
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 1px rgba(255, 255, 255, 1);
+    opacity: 0.8;
+}
+
+.contato-textarea {
+    height: 150px;
+    color: black;
+}
+
+.contato-btn {
+    width: 20%;
+    padding: 0.7rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #fff;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    opacity: 0.8;
+}
+
+.contato-btn:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}

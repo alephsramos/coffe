@@ -1,0 +1,118 @@
+.menu {
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    background-image: url('../img/background4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.menu h1 {
+    margin-bottom: -0.5rem;
+    padding-top: 5rem;
+    font-size: 3rem;
+    font-family: "Philosopher", sans-serif;
+    transition: transform 0.2s ease-in-out;
+    transition: letter-spacing 0.2s ease-in-out;
+    cursor: default;
+    color: white;
+}
+
+.menu h1:hover{
+    transform: scale(1.05);
+    letter-spacing: 2px;
+}
+
+
+.menu img {
+    max-width: 350px;
+    height: auto;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+    padding-left: 5px;
+}
+
+.menu img:hover{
+    transform: scale(1.1);
+}
+
+.menu p {
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%
+    
+    
+}
+
+.card {
+    border-radius: 8px;
+    width: 45%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card img:hover{
+    transform: scale(1.1) rotate(10deg);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.card h6 {
+    margin: 0;
+    font-size: 1.4rem;
+    flex-grow: 1;
+    color: #ffffff;
+    transition: transform 0.2s ease-in-out;
+    font-weight: 800;
+    cursor: default;
+}
+
+.card h6:hover{
+    transform: scale(1.1) translateX(7px);
+    color: #db7209;
+}
+
+.card p {
+    margin: 1px 0 0;
+    cursor: default;
+}
+
+.card p:hover{
+    color: #db7209;
+}

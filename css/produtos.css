@@ -1,0 +1,126 @@
+.produtos {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 70vh;
+}
+
+.produtos h2 {
+    font-size: 3rem;
+    margin: 20px 0;
+    font-family: "Philosopher", sans-serif;
+    margin-top: 5%;
+    color: #343436;
+    transition: transform 0.2s ease-in-out;
+    transition: letter-spacing 0.2s ease-in-out;
+    cursor: default;
+}
+
+.produtos h2:hover{
+    color: #db7209;
+    transform: scale(1.1);
+    letter-spacing: 2px;
+}
+
+.produtos h2:hover + img{
+    transform: scale(1.1);
+}
+
+.produtos img {
+    max-width: 350px;
+    height: auto;
+    margin-top: -2%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.produtos p {
+    margin: 20px 0;
+    font-size: 1.4rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    margin-bottom: 5%;
+    color: #343436;
+    cursor: default;
+    transition: transform 0.2s ease-in-out;
+}
+
+.produtos p:hover{
+    transform: scale(1.1);
+}
+
+.cards-cafe {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10%;
+    flex-wrap: wrap;
+}
+
+.card-produtos {
+    width: 22%;
+    padding: 1px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.card-produtos img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.0);
+    transition: transform 0.2s ease-in-out;
+    cursor: default;
+}
+
+.card-produtos img:hover{
+    transform: scale(1.40) translateX(3px);
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+
+.card-produtos img:hover + h6{
+    color: #db7209;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+
+.card-produtos h6 {
+    margin: 15px 0 10px;
+    font-size: 1.3rem;
+    font-family: "Oswald", sans-serif;
+    color: #343436;
+    transition: letter-spacing 0.2s ease-in-out;
+    letter-spacing: 0px;
+    font-weight: 500;
+    cursor: default;
+}
+
+.card-produtos p {
+    margin: 10px 0;
+    font-weight: 400;
+    color: #db7209;
+    font-size: 1rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-produtos p:hover{
+    color: #343436;
+    cursor: default;
+    transform: scale(1.1);
+}
+
+.card-produtos button {
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 1px solid #343436;
+    color: #343436;
+    cursor: pointer;
+    font-family: "Oswald", sans-serif;
+}
+
+.card-produtos button:hover {
+    background-color: #db7209;
+    color: white;
+    border: 1px solid #db7209;
+}

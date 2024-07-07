@@ -1,0 +1,108 @@
+.blog {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cards-blog{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.card-blog-card{
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-blog-card:hover{
+    transform: scale(1.10);
+}
+
+.blog .blog-title {
+    font-size: 3rem;
+    font-family: "Philosopher", sans-serif;
+    margin-top: 5%;
+    transition: transform 0.2s ease-in-out;
+    transition: letter-spacing 0.2s ease-in-out;
+    cursor: default;
+}
+
+.blog-title:hover{
+    color: #db7209;
+    transform: scale(1.1);
+    letter-spacing: 5px;
+}
+
+.blog .blog-image {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    margin-top: -1%;
+
+}
+
+.blog .blog-description {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    margin-bottom: 40px;
+    cursor: default;
+}
+
+.blog .card-blog-card {
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: left;
+    margin: 15px;
+    box-shadow: 0 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: default;
+}
+
+.blog .card-blog-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.blog .card-blog-card img:hover{
+    transform: scale(1.05);
+}
+
+.blog .card-blog-card h6 {
+    font-size: 1.2rem;
+    color: #db7209;
+    margin-bottom: 5px;
+    cursor: default;
+    transition: transform 0.2s ease-in-out;
+}
+
+.blog .card-blog-card h6:hover{
+    transform: scale(1.1) translateX(12px); 
+}
+
+.blog .card-blog-card p {
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+    cursor: default;
+    transition: transform 0.2s ease-in-out;
+}
+
+.blog .card-blog-card p:hover{
+    transform: scale(1.01) translateX(5px);
+}
+
+.blog .card-blog-card .number {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.blog .card-blog-card .number:hover{
+    background-color: #db7209;
+    color: white;
+}

@@ -1,0 +1,167 @@
+.feed-title {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 10%;
+    font-family: "Philosopher", sans-serif;
+    transition: transform 0.2s ease-in-out;
+    cursor: default;
+    transition: letter-spacing 0.2s ease-in-out;
+}
+
+.feed-title:hover{
+    transform: scale(1.1);
+    letter-spacing: 5px;
+    color: #db7209;
+}
+
+.feed-img {
+    width: 350px;
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem */
+    margin-top: -1rem;
+}
+
+.feed-text {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 10px; /* Aproxima o texto do carrossel */
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    margin-top: 3rem;
+    cursor: default;
+}
+
+.feed-carousel {
+    max-width: 100vh; /* Ajuste o tamanho máximo do carrossel */
+    max-height: 80vh; /* Ajuste a altura máxima do carrossel */
+    margin: 0 auto; /* Centralize o carrossel */
+}
+
+.carousel-control-prev, .carousel-control-next { /* Cor de fundo dos botões de navegação */
+    width: 10%; /* Largura dos botões de navegação */
+    margin-top: -40px; /* Afasta os botões do carrossel */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(1); /* Inverte a cor do ícone para branco */
+}
+
+/* feed-bootstrap-carousel.css */
+
+/* Estilos base do Bootstrap para o carrossel */
+.feed-carousel {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .feed-carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: -10%;
+  }
+
+  .feed-carousel-inner:hover{
+    transform: scale(1.1);
+  }
+  
+  .feed-carousel-item {
+    position: relative;
+    display: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    transition: -webkit-transform 0.6s ease;
+    transition: transform 0.6s ease;
+    transition: transform 0.6s ease, -webkit-transform 0.6s ease;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
+  }
+
+  .feed-carousel-item img{
+    height: 100%;    /* Define uma altura fixa para as imagens */
+      width: 100%;      /* Garante que a imagem ocupe toda a largura */
+      object-fit: cover;
+      margin-top: 5%;
+  }
+  
+  .feed-carousel-item-next,
+  .feed-carousel-item-prev,
+  .feed-carousel-item.active {
+    display: block;
+  }
+  
+  .feed-carousel-control-prev,
+  .feed-carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 25%;
+    color: transparent;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+    opacity: 0;
+  }
+  
+  .feed-carousel-control-prev:hover,
+  .feed-carousel-control-next:hover {
+    color: transparent;
+    text-decoration: none;
+    outline: 0;
+    opacity: 0;
+  }
+  
+  .feed-carousel-control-prev {
+    left: 0;
+  }
+  
+  .feed-carousel-control-next {
+    right: 0;
+  }
+  
+  .feed-carousel-control-prev-icon,
+  .feed-carousel-control-next-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: no-repeat 50% / 100% 100%;
+  }
+  
+  .feed-carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23fff" viewBox="0 0 8 8"%3E%3Cpath d="M4.146 7.354a.5.5 0 0 1-.707 0L.793 4.707a1 1 0 0 1 0-1.414l2.646-2.646a.5.5 0 1 1 .707.707L2.207 4l2.646 2.646a.5.5 0 0 1 0 .708z"/%3E%3C/svg%3E');
+  }
+  
+  .feed-carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23fff" viewBox="0 0 8 8"%3E%3Cpath d="M3.854.646a.5.5 0 0 1 0 .707L1.207 4l2.647 2.646a.5.5 0 1 1-.707.707L.793 4.707a1 1 0 0 1 0-1.414L3.147.646a.5.5 0 0 1 .707 0z"/%3E%3C/svg%3E');
+  }
+
+  .feed-carousel {
+    max-width: 600px; /* Define a largura máxima do carrossel */
+    margin: 0 auto;   /* Centraliza o carrossel horizontalmente */
+  }
+
+  .feed-carousel-item img {
+    height: 300px;    /* Define uma altura fixa para as imagens */
+    object-fit: cover; /* Ajusta a imagem para cobrir a área disponível */
+  }
+
+  .feed-carousel-control-prev, .feed-carousel-control-next {
+    width: 5%; /* Define a largura dos botões de controle */
+  }
+
+  .feed-carousel-control-prev-icon, .feed-carousel-control-next-icon {
+    background-color: transparent; /* Fundo semi-transparente */
+    border-radius: 50%; /* Torna os ícones circulares */
+  }

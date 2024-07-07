@@ -1,0 +1,100 @@
+.cta-final {
+    background-image: url('../img/fundo-cafe.png');
+    background-size: cover;
+    background-position: center;
+    padding: 50px; /* Ajuste conforme necessário */
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.final{
+    border: 2px dashed #db7209;
+    background-color: #1a1a1b;
+    width: 70%;
+    padding: 10%; /* Ajuste o valor conforme necessário para mover a borda para dentro */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    box-shadow: 0 0 0 20px #1a1a1b;
+    flex-direction: column;
+    height: 400px;
+    flex-wrap: nowrap;
+
+}
+
+.final h2{
+    color: white;
+    width: 60%;
+    font-size: 1.8rem;
+    font-family: "Philosopher", sans-serif;
+    transition: transform 0.2s ease-in-out;
+    cursor: default;
+}
+
+.final h2:hover{
+    transform: scale(1.1) translateX(20px);
+}
+
+.final h6{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease-in-out;
+    cursor: default;
+}
+
+.final h6:hover{
+    transform: scale(1.1) translateX(30px);
+}
+
+.final b{
+    color: #db7209;
+}
+
+.final b:hover{
+    color: white;
+}
+
+
+.final button{
+    margin-top: 15px;
+    background-color: #db7209;
+    color: #ffffff;
+    padding: 6px 15px;
+    font-family: "Oswald", sans-serif;
+    transition: transform 0.2s ease-in-out;
+    border: none;
+    cursor: pointer;
+}
+
+.final button:hover{
+    transform: scale(1.1) translateX(5px);
+
+    border: 1px solid #db7209;
+    color: #db7209;
+    background-color: transparent;
+}
+
+.final-2{
+    align-items: center;
+    display: block;
+    width: 100%;
+    justify-content: right;
+    margin: 0 auto;
+    margin-top: -30%;
+}
+
+.cta-final img {
+    max-width: 40%; /* Ajuste conforme necessário */
+    float: right;
+    transition: transform 0.4s ease-in-out;
+    height: auto;
+}
+
+.cta-final img:hover{
+    transform: scale(3) translateX(30px) rotate(-10deg);
+}
